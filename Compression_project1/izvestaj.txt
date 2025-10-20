@@ -1,0 +1,50 @@
+Entropija sample.bin: 7.8309
+Entropija sample.txt: 6.0403
+
+HUFFMAN
+Huffman (sample.bin)
+  Ulaz: 1024 B, Kompresovano: 1855 B, Odnos: 1.8115
+  Vreme kompresije: 19.25 ms, dekompresije: 8.19 ms
+  Provera fajlova: ISTO
+
+Huffman (sample.txt)
+  Ulaz: 15150 B, Kompresovano: 11667 B, Odnos: 0.7701
+  Vreme kompresije: 31.46 ms, dekompresije: 37.04 ms
+  Provera fajlova: ISTO
+
+
+SHANNON–FANO
+Shannon-Fano (sample.bin)
+  Ulaz: 1024 B, Kompresovano: 3859 B, Odnos: 3.7686
+  Vreme kompresije: 7.45 ms, dekompresije: 5.72 ms
+  Provera fajlova: ISTO
+
+Shannon-Fano (sample.txt)
+  Ulaz: 15150 B, Kompresovano: 12082 B, Odnos: 0.7975
+  Vreme kompresije: 10.09 ms, dekompresije: 22.42 ms
+  Provera fajlova: ISTO
+
+
+LZ77
+LZ77 (sample.bin)
+  Ulaz: 1024 B, Kompresovano: 1972 B, Odnos: 1.9258
+  Vreme kompresije: 3.28 ms, dekompresije: 4.16 ms
+  Provera fajlova: RAZLICITO
+
+LZ77 (sample.txt)
+  Ulaz: 15150 B, Kompresovano: 22393 B, Odnos: 1.4781
+  Vreme kompresije: 9.94 ms, dekompresije: 68.85 ms
+  Provera fajlova: RAZLICITO
+
+
+LZW
+LZW (sample.bin)
+  Ulaz: 1024 B, Kompresovano: 2032 B, Odnos: 1.9844
+  Vreme kompresije: 12.44 ms, dekompresije: 3.54 ms
+  Provera fajlova: ISTO
+
+LZW (sample.txt)
+  Ulaz: 15150 B, Kompresovano: 20304 B, Odnos: 1.3402
+  Vreme kompresije: 16.12 ms, dekompresije: 22.17 ms
+  Provera fajlova: ISTO
+
